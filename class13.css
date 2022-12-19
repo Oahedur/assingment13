@@ -1,0 +1,457 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+h1 h2 h3 h4 h5 h6 p{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+/* }
+.full-project{
+    width: 80%;
+    margin:auto ; */
+}
+
+/* <.logo.with menu..part..start.      --> */
+.header{
+    display: flex;
+    
+
+}
+.main{
+    
+    background-image: url(./1.jpg);
+    background-position:0% 58% ;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.logo{
+    margin-top: 80px;
+    width: 30%;
+    text-align: right;
+}
+.menu{
+    
+    margin-top: 80px;
+    width: 70%;
+    padding-left: 180px;
+   
+}
+.menu ul{}
+
+.menu ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+.menu ul a{
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    transform: .7s;
+    display:block ;
+    padding: 10px 30px;
+}
+
+.menu ul li:hover a{
+    color: #ce9878;
+}
+.banner{
+    text-align: center;
+    padding: 200px 0px;
+}
+
+.banner h1{
+    margin-left: 50px;
+    display: inline-block;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+}
+.banner::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    font-size: 40px;
+    content: "\f10d";
+    color: chocolate;
+    position: absolute;
+    top: 27%;
+    left: 29%;
+    
+}
+.banner::after{ 
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    font-size: 40px;
+    content: "\f10e";
+    color: chocolate;
+    position: absolute;
+    top: 27%;
+    left: 72%;
+
+}
+
+.about h1{
+    font-style: oblique;
+    font-weight: 400;
+    display:block;
+    text-align: center;
+    margin: 70px 0px 70px 30px;
+}
+
+.data2{
+    display: flex;
+}
+.img-data{
+    padding-left: 200px;
+    width: 30%;
+    text-align: right;
+
+}
+.img-data img{
+    margin-top: 35px;
+    width: 300px;
+    height: 200px;
+    border: 4px solid rgb(228, 103, 13);
+    box-shadow: 0px 2px 35px;
+}
+.text{
+    padding-right: 200px;
+    width: 70%;
+    text-align: left;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+
+.service{
+    background: #2e3e4e;
+    padding: 100px 0px;
+}
+.service-title h2{
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    color: rgb(247, 111, 14);
+}
+.service-data{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+.service1{
+    text-align: center;
+    width: 33%;
+    height: 400px;
+}
+
+.service2{
+    text-align: center;
+    width: 33%;
+    height: 400px;
+} 
+
+.service3{
+    text-align: center;
+    font-style: italic;
+    width: 34%;
+    height: 400px;
+    
+}
+.hp{
+    font-style: italic;
+    padding-top: 10px;
+    color: #fff;
+    
+    
+
+    
+    
+}
+.service1 i{
+    margin-top: 40px;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    background:rgb(247, 111, 14) ;
+    font-size: 30px;
+    line-height: 60px;
+    border-radius: 0px 28px 5px;
+}
+.service1 ul li{
+    list-style: none;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+}
+.service1 ul{
+    position: relative;
+}
+
+.service1 ul li::before{
+    content: "\f560";
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    font-weight: 600;
+    top: 35%;
+    left: 20%;
+    color: orange;
+
+}
+.hp2{
+    font-style: italic;
+    padding-top: 10px;
+    color: #fff;
+}
+.service2 i{
+    margin-top: 40px;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    background:rgb(247, 111, 14) ;
+    font-size: 30px;
+    line-height: 60px;
+    border-radius: 0px 28px 5px;
+}
+ 
+.service2 ul li{
+    list-style: none;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+}
+
+.service2 ul li::before{
+    content: "\f560";
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    font-weight: 600;
+    top: 35%;
+    left: 20%;
+    color: orange;
+}
+.hp3{
+    color: #fff;
+    font-style: italic;
+    padding-top: 10px;
+}
+.service i{
+    margin-top: 40px;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    background:rgb(247, 111, 14) ;
+    font-size: 30px;
+    line-height: 60px;
+    border-radius: 0px 28px 5px;
+}
+
+.service3 ul li{
+    list-style: none;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+}
+.service ul li::before{
+    content: "\f560";
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    font-weight: 600;
+    top: 35%;
+    left: 20%;
+    color: orange;
+}
+.button1{
+   
+        
+        color: #fff;
+        font-size: 20px;
+        background: rgb(247, 105, 4);
+        padding: 9px 20px;
+        margin-top: 13px;
+        display: inline-block;
+        border-radius: 10px;
+        position: relative;
+        z-index: 1;
+}
+.button1::before{
+    content:" ";
+    width:0;
+    height:100%;
+    position: absolute;
+    bottom:0;
+    right: 0;
+    background: yellow;
+    border-radius: 10px;
+    transition: .6s;
+    z-index: -1;
+    color: #fff;
+} 
+.button1:hover::before{
+  width: 100%;
+   
+}
+/* 
+///////////////// */
+
+.button2{
+   
+        
+    color: #fff;
+    font-size: 20px;
+    background: rgb(247, 105, 4);
+    padding: 9px 20px;
+    margin-top: 13px;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+.button2::before{
+content:" ";
+width:100%;
+height:0;
+position: absolute;
+top:0;
+left: 0;
+background: yellow;
+border-radius: 10px;
+transition: .6s;
+z-index: -1;
+color: #fff;
+} 
+.button2:hover::before{
+height: 100%;
+
+}
+
+/* ///////// */
+
+
+.button3{
+   
+        
+    color: #fff;
+    font-size: 20px;
+    background: rgb(247, 105, 4);
+    padding: 9px 20px;
+    margin-top: 13px;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+.button3::before{
+content:" ";
+width:0;
+height:100%;
+position: absolute;
+top:0;
+left: 0;
+background: yellow;
+border-radius: 10px;
+transition: .6s;
+z-index: -1;
+color: #fff;
+} 
+.button3:hover::before{
+width: 100%;
+
+}
+.form-tag input{
+    width: 50%;
+    height: 40px;
+    border: none;
+    border-bottom:2px solid orangered ;
+
+}
+.form{
+    text-align: center;
+}
+.form button{
+    color: #fff;
+    background:#f1a00a ;
+    border: none;
+    padding: 15px 135px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    font-size: 25px;
+    box-shadow: 0px 2px 15px black;
+    position: relative;
+    z-index: 1;
+}
+.form button::before{
+    content: " ";
+    background:orange;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    z-index: -1;
+    transition: all linear .5s;
+
+}
+.form button:hover::before{
+    width: 50%;
+    background:#310606fd;
+    
+}
+/* 
+////after/// */
+
+.form button::after{
+    content: " ";
+    background:orange;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 0;
+    z-index: -1;
+    transition: all linear .5s;
+
+}
+.form button:hover::after{
+    width: 51%;
+    background:#310606fd;
+    
+}
+
+.footer h2{
+    color: #fff;
+    background: #2e3e4e;
+    margin-top: 30px;
+    text-align: center;
+    padding: 50px 0px;
+  
+
+}
+
+
+.footer h2::after{
+    content: " Templete Stock";
+    color: rgb(255, 89, 11);
+}
+
+
+
+
+
+
+
+
+
+
